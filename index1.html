@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/x-icon" href="assets/img/favicon-32x32.png">
-    <title>Ini webnya mas bro</title>
+    <link rel="icon" type="image/x-icon" href="assets/img/fian.jpeg">
+    <title>Fian's Website</title>
     <style>
         body {
             margin: 0;
@@ -16,13 +16,13 @@
         }
 
         #cover-avatar {
-            background-color: #607d8b;
+            background-image: url('assets/img/bg.jpg');
             height: 200px;
             width: 100%;
         }
 
         .avatar-wrapper {
-            border: 10px solid #fff;
+            border: 8px solid #fff;
             margin: -40px auto 20px auto;
             border-radius: 50%;
             overflow: hidden;
@@ -73,32 +73,42 @@
         aside .card {
             padding: 20px;
         }
+
+        .garis {
+            height: 25px;
+            width: 5px;
+            background-color: red;
+            float: left;
+        }
     </style>
 </head>
 
 <body>
     <div id="cover-avatar"></div>
     <div class="avatar-wrapper">
-        <img src="assets/img/gambar_masbro.jpg" alt="gambar_masbro_1.jpg">
+        <img src="assets/img/fian.jpeg" alt="gambar_masbro_1.jpg">
     </div>
-    <h1 style="margin-bottom: 20px;">Mas Bro Ganteng</h1>
-    <span id="bio-profile"></span>
+    <h1 style="margin-bottom: 20px;">Dwi Arfian</h1>
+    <i><span id="bio-profile"></span></i>
 
     <div class="container">
         <div class="d-flex flex-row">
             <aside>
                 <div class="card">
-                    <h3>Halo halo</h3>
+                    <h3><div class="garis"></div>Introduction</h3>
+                    <hr>
+                    <p>Seseorang yang berusaha untuk jadi jago web dengan restu kedua orangtua.</p>
+                    <hr>
                 </div>
             </aside>
             <main>
                 <article class="card">
                     <div class="d-flex flex-col">
                         <div class="avatar-wrapper small">
-                            <img src="assets/img/gambar_masbro.jpg" alt="gambar_masbro_1.jpg">
+                            <img src="assets/img/fian.jpeg" alt="gambar_masbro_1.jpg">
                         </div>
                         <div class="post-detail">
-                            <div class="user-post">Mas Bro Ganteng</div>
+                            <div class="user-post">Dwi Arfian</div>
                             <div class="time-post">5 menit yang lalu</div>
                         </div>
                     </div>
@@ -112,7 +122,7 @@
 
     <script>
         // const API_TOKEN = 'aihwdiolhwaipdhwdjhdhdihqo';
-        let bioProfile = document.getElementById('bio-profile').innerHTML = "Halo guys masbro disini";
+        let bioProfile = document.getElementById('bio-profile').innerHTML = "Halo semuanya, ini adalah websiteku. Aselole sekali bukan?";
 
 
     </script>
